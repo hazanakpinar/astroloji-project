@@ -1,0 +1,35 @@
+#body{
+    background: linear-gradient(#aeaed6, #ff77b4, #9c4e97);
+}
+.login-page{
+    background: linear-gradient(#0b192c3f,#0B192C);
+    height: 100%;
+    
+    &-head{
+        text-align: center;
+        position: absolute;
+        top : 25%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-family: "Doto", serif;
+        font-size: 40px;
+        h3{
+            margin: 0px;
+            padding: 60px 0 0 0;
+        }
+    }
+    form{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: transparent;
+        text-align: left;
+        h3{
+            text-align: center;
+        }
+        a.link{
+            color: whitesmoke;
+        }
+    }
+}

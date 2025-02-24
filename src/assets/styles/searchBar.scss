@@ -1,0 +1,33 @@
+.search-bar{
+    visibility: visible;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+     background-color: #ab88ad;
+   // background-color: transparent;
+    position: fixed;
+    margin-top: 80px;
+    width: 100%;
+    height: 50px;
+   
+    &-input{
+        position: relative;
+        input{
+            padding: 5px 5px 5px 25px;
+            border: 1px solid whitesmoke;
+            border-radius: 5px;
+            &:focus{
+                outline: 1px solid #622150;
+            }
+        }
+        .scope{
+            font-size: 20px;
+            position: absolute;
+            top: 3px;
+            left: 3px;
+        }
+    }
+}

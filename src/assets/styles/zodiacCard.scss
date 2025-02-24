@@ -1,0 +1,42 @@
+.zodiac-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px black;
+    background-color: #f9f9f9;
+    margin-top: auto; 
+
+    h3 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.1em;
+      margin: 5px 0;
+    }
+    .element {
+      font-weight: bold;
+      color: #555;
+    }
+    a{
+      color: black;
+      padding: 10px 20px;
+      border-radius: 5px;
+      display: block;
+      font-size: large;
+      text-decoration: none;
+      background-color: rgb(203, 207, 191);
+      &:hover{
+        background-color: plum;
+      }
+    }
+  } 
+.zodiac-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 150px 0 0 0;
+}

@@ -1,0 +1,76 @@
+form{
+    background: linear-gradient(#aeaed6, #ff77b4, #9c4e97);
+    position: sticky;
+    width: 400px;
+    margin: 140px auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 20px 50px 20px;
+    position: relative;
+    box-shadow: 0 0 20px whitesmoke;
+    input,select,textarea{
+        display: block;
+        width: 100%;
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: 1px solid whitesmoke;
+        margin-bottom: 10px;
+        font-family: "Lato", sans-serif;
+        background: whitesmoke;
+        &:focus{
+            outline: 2px solid #FF6500;
+        }
+    }
+    textarea{
+        height: 150px;
+    }
+    ::placeholder{
+        color: #0b192cbd;
+    }
+    input[type='submit']{
+        width: auto;
+        padding: 5px 25px;
+        border: 2px solid plum;
+        border-radius: 6px;
+        color: black;
+        font-weight: 700;
+        background-color: transparent;
+        cursor: pointer;
+        letter-spacing: 1px;
+        transition: .6s;
+        position: absolute;
+        right: 20px;
+        &:hover{
+            color: black;
+            border: 1px solid black ;
+        }
+        &:disabled{
+            border: 1px solid #543520; 
+            color:#543520 ;
+            &:hover{
+                background-color: transparent;
+                color: whitesmoke;
+                box-shadow: none;
+                border: whitesmoke;
+            }
+        }
+    }
+    .btn-btn-geri{
+        font-family: "Lato", sans-serif;
+        width: auto;
+        padding: 5px 25px;
+        border: 1px solid #543520;
+        border-radius: 5px;
+        color: #543520;
+        text-decoration: none;
+        position: absolute;
+        height: 27px;
+        &:hover{
+            background-color: transparent;
+            color: whitesmoke;
+            box-shadow: none;
+            border: whitesmoke;
+        }
+    }
+}
+    

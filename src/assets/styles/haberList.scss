@@ -1,0 +1,54 @@
+#haber-list {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+.haber-ekle-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.haber-ekle-link {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  background-color: #eeb7e4;
+  padding: 10px 20px;
+  border-radius: 80px;
+  border: 2px solid rgb(88, 40, 90);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  text-align: center;
+
+  &:hover {
+    background-color: rgb(233, 200, 233);
+    color: rgb(107, 16, 110);
+  }
+}
+
+.haber-list {
+  display: grid;
+  gap: 20px;
+  padding: 160px 0 0 0;
+}
+
+.haber-card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid black;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+}
+
+
+  

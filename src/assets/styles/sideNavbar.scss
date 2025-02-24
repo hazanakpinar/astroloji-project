@@ -1,0 +1,39 @@
+.side-navbar {
+    width: 250px;
+    height: 100%;
+    background-color: #a892a9;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 100;
+
+    .dropdown {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        li{
+            list-style: none;
+            font-weight: bolder;
+            font-size: 18px;
+            display: block;
+            margin: 5px;
+            a{
+                color: black;
+                text-decoration: none;
+                &:hover{
+                    background-color: palevioletred;
+                    color: black;
+                    border: 1px solid;
+                    box-shadow: 0 0 10px palevioletred;
+                    padding: 5px;
+                    border-radius: 15%;
+                }
+            }
+        }
+
+    }
+}
